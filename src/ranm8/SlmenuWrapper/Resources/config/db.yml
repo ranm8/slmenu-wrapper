@@ -1,6 +1,6 @@
 git:
   pull: git pull
-  push: git push
+  push: git push origin `git rev-parse --abbrev-ref HEAD`
   checkout:
     branch: git branch
 cd:
