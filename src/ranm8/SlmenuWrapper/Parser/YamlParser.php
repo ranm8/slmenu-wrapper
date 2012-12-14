@@ -9,7 +9,7 @@ class YamlParser implements CommandsParserInterface {
   /**
    * The path of the YAML file
    */
-  const YAML_PATH = '../Resources/config/db.yml';
+  const YAML_PATH = '/usr/local/var/www/slmenu-wrapper/src/ranm8/SlmenuWrapper/Resources/config/db.yml';
 
   /**
    * @inheritDoc
